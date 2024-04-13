@@ -8,7 +8,6 @@ def lambda_handler(event, context):
         # Create DynamoDB resource
         dynamodb = boto3.resource('dynamodb')
         table = dynamodb.Table(customer)
-
         # Put the data into DynamoDB
         table.put_item(Item=event)
 
