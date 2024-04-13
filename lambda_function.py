@@ -14,7 +14,7 @@ def lambda_handler(event, context):
 
         response = {
             'statusCode': 200,
-            'body': json.dumps('Data inserted successfully Tushar shrivastav Software engineer!')
+            'body': json.dumps('Data inserted successfully ')
         }
 
     except Exception as e:
